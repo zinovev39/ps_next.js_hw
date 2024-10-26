@@ -1,0 +1,40 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	max-width: 350px;
+	padding: 10px;
+	border: 1px solid var(--border-card);
+	border-radius: 5px;
+}
+
+.cardImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 16px;
+	background-color: var(--bg-card-image);
+	border-radius: 5px;
+}
+
+.hint {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 7px;
+}
+
+.blogInfo {
+	display: flex;
+}
+
+.dotSeparator {
+	margin: 0 6px;
+	font-size: 16px;
+	line-height: 8px;
+}
+
+.cardFooter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
