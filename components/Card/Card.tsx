@@ -1,13 +1,5 @@
 //import cn from 'classnames';
-import {
-	BlogCreationDate,
-	BlogReadingTime,
-	BlogTopic,
-	Button,
-	Htag,
-	LikesCount,
-	Ptag,
-} from '@/components';
+import { BlogCardHint, Button, Htag, LikesCount, Ptag } from '@/components';
 import Image from 'next/image';
 import styles from './Card.module.css';
 
@@ -28,9 +20,9 @@ export const Card = ({}) => {
 			</div>
 			<div className={styles.hint}>
 				<div className={styles.blogInfo}>
-					<BlogTopic>Front-end</BlogTopic>
+					<BlogCardHint color='text-small'>Front-end</BlogCardHint>
 					<p className={styles.dotSeparator}>.</p>
-					<BlogCreationDate>1 месяц назад</BlogCreationDate>
+					<BlogCardHint>1 месяц назад</BlogCardHint>
 				</div>
 				<LikesCount>12</LikesCount>
 			</div>
@@ -40,7 +32,7 @@ export const Card = ({}) => {
 				сеток в CSS. Гриды подойдут и для верстки основных областей страницы..
 			</Ptag>
 			<div className={styles.cardFooter}>
-				<BlogReadingTime>3 минуты</BlogReadingTime>
+				<BlogCardHint>3 минуты</BlogCardHint>
 				<Button color='text-button' arrow='right'>
 					Читать
 				</Button>
