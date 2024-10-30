@@ -5,4 +5,5 @@ export * from './Button/Button';
 export * from './Ptag/Ptag';
 export * from './Card/Card';
 export * from './LikesCount/LikesCount';
+export * from './LikeButton/LikeButton';
 export * from './BlogCardHint/BlogCardHint';

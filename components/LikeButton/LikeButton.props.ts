@@ -1,10 +1,7 @@
-import { HTMLAttributes, DetailedHTMLProps, ReactNode } from 'react';
+import { DetailedHTMLProps, HTMLAttributes } from 'react';
 
 export interface LikeButtonProps
-	extends DetailedHTMLProps<
-		HTMLAttributes<HTMLParagraphElement>,
-		HTMLParagraphElement
-	> {
-	children: ReactNode;
-	counter?: string;
+	extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+	like: boolean;
+	setLike: (like: boolean) => void;
 }

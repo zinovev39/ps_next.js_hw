@@ -1,13 +1,16 @@
-.likesCount {
-	display: flex;
-	align-items: center;
-	margin: 0;
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 16.34px;
-	color: var(--text-secondary);
+.likeIcon {
+	display: inline-block;
+	padding: 14px 16px;
+	border: 1px solid var(--border-like-button);
+	border-radius: 50%;
+	cursor: pointer;
 }
 
-.likesIcon {
-	margin-left: 3px;
+.fillLikeIcon {
+	background-color: var(--border-like-button);
+	border: 1px solid var(--border-like-button);
+}
+
+.fillLikeIcon svg {
+	stroke: #fff;
 }
