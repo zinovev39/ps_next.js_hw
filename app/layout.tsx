@@ -23,7 +23,7 @@ export default function RootLayout({
 		<html lang='ru'>
 			<body className={openSans.className}>
 				<Header />
-				{children}
+				<main>{children}</main>
 			</body>
 		</html>
 	);
