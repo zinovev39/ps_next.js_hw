@@ -1,0 +1,53 @@
+.header {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.cardDescription {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	margin: 0;
+	margin-bottom: 21px;
+}
+
+.cardDetailsDescription {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+}
+.cardDetailsLike {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21.79px;
+}
+
+.cardDetailsUserComments {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 16.34px;
+}
+
+.cardDetailsUserEmailComments {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16.34px;
+}
+
+.cardDetailsUserTextComments {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.textPrimary {
+	color: var(--text-primary);
+}
+
+.textSecondary {
+	color: var(--text-secondary);
+}
+
+.textSmall {
+	color: var(--text-small);
+}
