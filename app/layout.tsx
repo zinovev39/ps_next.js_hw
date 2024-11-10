@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components';
+import { AppContext } from '@/context/app.context';
 
 const openSans = Open_Sans({
 	subsets: ['cyrillic'],

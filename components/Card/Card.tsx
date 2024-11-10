@@ -2,8 +2,9 @@
 import { BlogCardHint, Button, Htag, LikesCount, Ptag } from '@/components';
 import Image from 'next/image';
 import styles from './Card.module.css';
+import { Post } from '@/interfaces/post.interface';
 
-export const Card = ({ post }) => {
+export const Card = ({ post }: { post: Post }) => {
 	return (
 		<div className={styles.card}>
 			<div className={styles.cardImage}>
@@ -12,10 +13,7 @@ export const Card = ({ post }) => {
 					alt='Card picture'
 					width={300}
 					height={192}
-					style={{
-						maxWidth: '100%',
-						height: 'auto',
-					}}
+					priority
 				/>
 			</div>
 			<div className={styles.hint}>
@@ -28,7 +26,7 @@ export const Card = ({ post }) => {
 			</div>
 			<Htag tag='h3'>{post.title}</Htag>
 			<Ptag size='cardDescription' color='textSecondary'>
-				{post.description}
+				{post.body}
 			</Ptag>
 			<div className={styles.cardFooter}>
 				<BlogCardHint>3 минуты</BlogCardHint>
