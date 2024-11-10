@@ -3,6 +3,7 @@ import { BlogCardHint, Button, Htag, LikesCount, Ptag } from '@/components';
 import Image from 'next/image';
 import styles from './Card.module.css';
 import { Post } from '@/interfaces/post.interface';
+import Link from 'next/link';
 
 export const Card = ({ post }: { post: Post }) => {
 	return (
@@ -31,7 +32,7 @@ export const Card = ({ post }: { post: Post }) => {
 			<div className={styles.cardFooter}>
 				<BlogCardHint>3 минуты</BlogCardHint>
 				<Button color='text-button' arrow='right'>
-					Читать
+					<Link href={`/blog/${post.id}`}>Читать</Link>
 				</Button>
 			</div>
 		</div>

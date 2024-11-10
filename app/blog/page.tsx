@@ -1,7 +1,8 @@
 import styles from './page.module.css';
 import { Card } from '@/components';
-import { Post } from '@/interfaces/post.interface';
 import { Metadata } from 'next';
+
+import { getPosts } from '@/api/post';
 
 export const metadata: Metadata = {
 	title: 'Blog',
@@ -9,8 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Blog() {
-	const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-	const posts: Post[] = await res.json();
+	const posts = await getPosts();
 
 	if (!posts) return <div>Loading...</div>;
 
