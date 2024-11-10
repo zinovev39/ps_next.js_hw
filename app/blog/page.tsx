@@ -36,7 +36,6 @@ export default function Blog() {
 	};
 
 	const cards = Array(3).fill(null);
-	console.log('cards', cards);
 	return (
 		<section>
 			<div className={styles.wrapper}>

@@ -1,6 +1,7 @@
 import { Button } from '@/components';
 import styles from './page.module.css';
 
+import { Menu } from '@/components/Menu/menu';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -9,10 +10,11 @@ export const metadata: Metadata = {
 	description: 'Description',
 };
 
-export default function Home() {
+export default async function Home() {
 	return (
 		<div className={styles.page}>
 			<h1>Главная</h1>
+			<Menu />
 			<Button className={styles.button}>
 				<Link href='/blog'>Блог</Link>
 			</Button>

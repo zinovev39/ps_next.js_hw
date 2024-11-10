@@ -16,6 +16,7 @@ export const Button = ({
 				[styles.textButton]: color == 'text-button',
 			})}
 			{...props}
+			tabIndex={0}
 		>
 			{children}
 			{arrow !== 'none' && (
