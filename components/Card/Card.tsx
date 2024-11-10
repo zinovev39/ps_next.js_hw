@@ -3,7 +3,7 @@ import { BlogCardHint, Button, Htag, LikesCount, Ptag } from '@/components';
 import Image from 'next/image';
 import styles from './Card.module.css';
 
-export const Card = ({}) => {
+export const Card = ({ post }) => {
 	return (
 		<div className={styles.card}>
 			<div className={styles.cardImage}>
@@ -26,10 +26,9 @@ export const Card = ({}) => {
 				</div>
 				<LikesCount>12</LikesCount>
 			</div>
-			<Htag tag='h3'>Как работать с CSS Grid</Htag>
+			<Htag tag='h3'>{post.title}</Htag>
 			<Ptag size='cardDescription' color='textSecondary'>
-				Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему
-				сеток в CSS. Гриды подойдут и для верстки основных областей страницы..
+				{post.description}
 			</Ptag>
 			<div className={styles.cardFooter}>
 				<BlogCardHint>3 минуты</BlogCardHint>
