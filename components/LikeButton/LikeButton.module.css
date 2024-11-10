@@ -1,0 +1,16 @@
+.likeIcon {
+	display: inline-block;
+	padding: 14px 16px;
+	border: 1px solid var(--border-like-button);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.fillLikeIcon {
+	background-color: var(--border-like-button);
+	border: 1px solid var(--border-like-button);
+}
+
+.fillLikeIcon svg {
+	stroke: #fff;
+}
