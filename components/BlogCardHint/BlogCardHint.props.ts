@@ -1,4 +1,4 @@
-import { HTMLAttributes, DetailedHTMLProps, ReactNode } from 'react';
+import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
 
 export interface BlogCardHintProps
 	extends DetailedHTMLProps<

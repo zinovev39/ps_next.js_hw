@@ -4,7 +4,7 @@
 	--text-secondary: #6e6e6e;
 	--text-small: #4b4b4b;
 	--text-button: #1473e6;
-	--text-input: #4e5d7c80;
+	--text-input-placeholder: #4e5d7c80;
 
 	/* Backgound */
 	--bg-card-image: #e5f4ff;
@@ -13,6 +13,12 @@
 	--border-card: #f5f5f5;
 	--border-like-button: #303030;
 	--border-input: #28282829;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {

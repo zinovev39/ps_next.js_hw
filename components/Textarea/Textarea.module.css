@@ -1,0 +1,33 @@
+.textarea {
+	padding: 18px 29px;
+	width: 100%;
+
+	border: 1px solid var(--border-input);
+	border-radius: 10px;
+	outline-color: var(--text-input-placeholder);
+
+	font-family: var(--font-open-sans);
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.textarea::placeholder {
+	color: var(--text-input-placeholder);
+}
+
+.error {
+	border: 1px solid red;
+}
+
+.textareaWrapper {
+	position: relative;
+}
+
+.errorMessage {
+	position: absolute;
+	top: -20px;
+	left: 10px;
+	color: red;
+	font-size: 12px;
+}

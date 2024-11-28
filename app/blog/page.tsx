@@ -1,6 +1,6 @@
-import styles from './page.module.css';
 import { Card } from '@/components';
 import { Metadata } from 'next';
+import styles from './page.module.css';
 
 import { getPosts } from '@/api/post';
 

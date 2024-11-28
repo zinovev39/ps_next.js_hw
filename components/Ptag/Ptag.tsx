@@ -17,11 +17,11 @@ export const Ptag = ({
 				[styles.cardDescription]: size == 'cardDescription',
 				[styles.cardDetailsDescription]: size == 'cardDetailsDescription',
 				[styles.cardDetailsLike]: size == 'cardDetailsLike',
-				[styles.cardDetailsUserComments]: size == 'cardDetailsUserComments',
-				[styles.cardDetailsUserEmailComments]:
-					size == 'cardDetailsUserEmailComments',
-				[styles.cardDetailsUserTextComments]:
-					size == 'cardDetailsUserTextComments',
+				[styles.cardDetailsUserComment]: size == 'cardDetailsUserComment',
+				[styles.cardDetailsUserEmailComment]:
+					size == 'cardDetailsUserEmailComment',
+				[styles.cardDetailsUserTextComment]:
+					size == 'cardDetailsUserTextComment',
 				[styles.textPrimary]: color == 'textPrimary',
 				[styles.textSecondary]: color == 'textSecondary',
 				[styles.textSmall]: color == 'textSmall',

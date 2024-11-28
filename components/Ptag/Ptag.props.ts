@@ -3,11 +3,12 @@ import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
 export type PtagSize =
 	| 'header'
 	| 'cardDescription'
+	| 'cardHhint'
 	| 'cardDetailsDescription'
 	| 'cardDetailsLike'
-	| 'cardDetailsUserComments'
-	| 'cardDetailsUserEmailComments'
-	| 'cardDetailsUserTextComments';
+	| 'cardDetailsUserComment'
+	| 'cardDetailsUserEmailComment'
+	| 'cardDetailsUserTextComment';
 
 export type PtagColor = 'textPrimary' | 'textSecondary' | 'textSmall';
 

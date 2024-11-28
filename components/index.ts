@@ -7,3 +7,7 @@ export * from './Card/Card';
 export * from './LikesCount/LikesCount';
 export * from './LikeButton/LikeButton';
 export * from './BlogCardHint/BlogCardHint';
+export * from './Input/Input';
+export * from './Textarea/Textarea';
+export * from './Review/Review';
+export * from './ReviewForm/ReviewForm';

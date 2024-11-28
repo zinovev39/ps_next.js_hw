@@ -15,6 +15,11 @@
 	border-radius: 5px;
 }
 
+.cardImage img {
+	width: 100%;
+	height: auto;
+}
+
 .hint {
 	display: flex;
 	justify-content: space-between;

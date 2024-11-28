@@ -22,19 +22,19 @@
 	line-height: 21.79px;
 }
 
-.cardDetailsUserComments {
+.cardDetailsUserComment {
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 16.34px;
 }
 
-.cardDetailsUserEmailComments {
+.cardDetailsUserEmailComment {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 16.34px;
 }
 
-.cardDetailsUserTextComments {
+.cardDetailsUserTextComment {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
