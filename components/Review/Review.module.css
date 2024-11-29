@@ -1,0 +1,14 @@
+.userComment {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.userTextComment {
+	padding-top: 10px;
+}
+
+.dotSeparator {
+	margin: 0 6px;
+	font-size: 16px;
+	line-height: 8px;
+}

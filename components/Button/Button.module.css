@@ -1,0 +1,29 @@
+.button {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+
+	background-color: #fff;
+
+	border: none;
+	cursor: pointer;
+
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16.34px;
+}
+
+.textButton {
+	color: var(--text-button);
+}
+
+.arrow {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.up {
+	transform: rotate(-45deg);
+	transition: all 0.2s;
+}

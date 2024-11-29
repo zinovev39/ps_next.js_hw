@@ -1,0 +1,43 @@
+.cardDetails {
+	max-width: 700px;
+	margin-bottom: 100px;
+}
+
+.hintContainer {
+	display: flex;
+	align-items: center;
+
+	padding-top: 10px;
+}
+
+.blogInfo {
+	display: flex;
+}
+
+.dotSeparator {
+	margin: 0 6px;
+	font-size: 16px;
+	line-height: 8px;
+}
+
+.cardImage img {
+	width: 100%;
+	height: auto;
+}
+
+.bodyDescription {
+	margin-bottom: 20px;
+}
+
+.like {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+.comments {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
